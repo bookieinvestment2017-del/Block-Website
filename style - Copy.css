@@ -1,0 +1,17 @@
+/* This part removes the white background */
+html, body {
+    background-color: black !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    height: 100vh;
+    width: 87vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.closer-gif {
+    width: 152%; /* Makes it 'closer' */
+    height: auto;
+}
